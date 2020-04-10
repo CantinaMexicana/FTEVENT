@@ -709,6 +709,21 @@ iframe.lazy-placeholder,
 section.lazy-placeholder:after {
   opacity: 0.3;
 }
+.cid-rVJONPVS9e {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: linear-gradient(45deg, #efefef, #55b4d4);
+}
+@media (min-width: 992px) {
+  .cid-rVJONPVS9e .mbr-figure {
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-rVJONPVS9e .mbr-figure {
+    padding-top: 3rem;
+  }
+}
 .cid-rVJlSbeB3g .navbar {
   padding: .5rem 0;
   background: #333333;
