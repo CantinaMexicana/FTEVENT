@@ -838,12 +838,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/mbr-1920x1255.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mbr-1920x1255-800x523.jpg",
+                "image": "@PROJECT_PATH@/assets/images/92642414-3019069401509931-8598061103915728896-n-672x624.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/92642414-3019069401509931-8598061103915728896-n-672x624-672x624.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Langosze",
+                "caption": "<a href=\"https://cantinamexicana.github.io/Anuszka/\" target=\"_blank\">Langosz</a><br><a href=\"https://cantinamexicana.github.io/Anuszka/\" target=\"_blank\">Zamów online!  Zapłać szybkim przelewem!</a>",
                 "active": false
               },
               {
@@ -851,12 +851,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/mbr-2-1920x1280.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mbr-2-1920x1280-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/92595988-235426187575886-3605005019218182144-n-1167x591.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/92595988-235426187575886-3605005019218182144-n-1167x591-800x405.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Anuszka",
+                "caption": "<a href=\"https://cantinamexicana.github.io/Anuszka/\" target=\"_blank\">Anuszka</a><br><a href=\"https://cantinamexicana.github.io/Anuszka/\" target=\"_blank\">Zamów online! Zapłać szybkim przelewem!</a>",
                 "active": false
               },
               {
