@@ -667,12 +667,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/mbr-1920x1215.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mbr-1920x1215-800x506.jpg",
+                "image": "@PROJECT_PATH@/assets/images/projekt-bez-tytuu-5-1181x1772.png",
+                "thumb": "@PROJECT_PATH@/assets/images/projekt-bez-tytuu-5-1181x1772-800x1200.png",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "KAWA",
+                "caption": "<a href=\"https://cantinamexicana.github.io/CoffeeBar/\" target=\"_blank\" class=\"text-success\">Coffee Bar</a><br><a href=\"https://cantinamexicana.github.io/CoffeeBar/\" target=\"_blank\" class=\"text-success\">Zamów online!  Zapłać szybkim przelewem!</a>",
                 "active": false
               },
               {
