@@ -97,11 +97,11 @@
           "_name": "image1",
           "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Pełny ekran\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Pokaż tekst\" name=\"showText\" checked>        \n        \n        <input type=\"range\" inline title=\"Szerokość\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"66\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Kolor ta\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Kolor 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/architektura-i-funk-www-1466x768.png\" width=\"1400\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                    <br><br><br>!!!!!!!!!!<br><br><br><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Ważne dla wszystkich &nbsp;Zapoznajcie się</b><br><br><br><br><br><br><br><br><b><br></b><br><br><br><br><br></div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
           "_cid": "rVXS7zCfDq",
+          "_anchor": "image1-b",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "image1-b"
+          "_params": {}
         },
         {
           "alias": false,
@@ -140,11 +140,11 @@
           "_name": "header7",
           "_customHTML": "<section class=\"header7\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Pełny ekran\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Pokaż tytuł\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Pokaż tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Pokaż przyciski\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Film po lewej\" name=\"reverseContent\">\n\n        <input type=\"range\" inline title=\"Wielkość\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"100\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Obrazek\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Kolor ta\" value=\"#0f7699\" selected>\n            <input type=\"video\" title=\"Film\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"color\" name=\"color2\" title=\"Kolor 2\" value=\"#ff7f9f\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Nakładka\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Kolor nakładki\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Przejrzystość\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n\n            <div class=\"media-content align-right\">\n                <h1 class=\"mbr-section-title mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                    Prezentacja z filmem\n                </h1>\n                <div class=\"mbr-section-text mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                        Tu potrzebny jest tekst i filmik od NUTKA</p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">Zamów on-line</a>\n                        <a class=\"btn btn-md btn-white-outline\" href=\"index.html#video1-g\" data-app-placeholder=\"Type Text\">Wasze zdrowie to Nasz priorytet</a></div>\n            </div>\n\n            <div mbr-video class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                <iframe src=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\"></iframe>\n            </div>\n\n        </div>\n    </div>\n</section>",
           "_cid": "rW1KQQhHT3",
+          "_anchor": "header7-c",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header7-c"
+          "_params": {}
         },
         {
           "alias": false,
@@ -670,7 +670,7 @@
                 "alt": "Nasze menu",
                 "title": "Nasze menu 222222",
                 "customStyle1": "display-7",
-                "caption": "<a href=\"https://cantinamexicana.github.io/Meksyk/\" target=\"_blank\">Eat on the Street :: Cantina Mexicana</a><br><a href=\"https://cantinamexicana.github.io/Meksyk/\" target=\"_blank\">Zamów online! &nbsp;Zapłać szybkim przelewem!</a><br>",
+                "caption": "<a href=\"https://cantinamexicana.github.io/Meksyk/\" target=\"_blank\" class=\"text-white\">Eat on the Street :: Cantina Mexicana</a><br><a href=\"https://cantinamexicana.github.io/Meksyk/\" target=\"_blank\" class=\"text-white\">Zamów online! &nbsp;Zapłać szybkim przelewem!</a><br>",
                 "active": false
               },
               {
@@ -683,7 +683,7 @@
                 "alt": "",
                 "title": "KAnapki Premium",
                 "customStyle1": "display-7",
-                "caption": "<a href=\"https://cantinamexicana.github.io/Meksyk/\" target=\"_blank\">Texas Rangers</a><br><a href=\"https://cantinamexicana.github.io/Meksyk/\" target=\"_blank\">Zamów online!  Zapłać szybkim przelewem!</a><br>",
+                "caption": "<a href=\"https://cantinamexicana.github.io/Meksyk/\" target=\"_blank\" class=\"text-white\">Texas Rangers</a><br><a href=\"https://cantinamexicana.github.io/Meksyk/\" target=\"_blank\" class=\"text-white\">Zamów online!  Zapłać szybkim przelewem!</a><br>",
                 "active": false
               },
               {
@@ -696,7 +696,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<a href=\"https://cantinamexicana.github.io/Meksyk/\" target=\"_blank\">Belle Belge</a><br><a href=\"https://cantinamexicana.github.io/Meksyk/\" target=\"_blank\">Zamów online! Zapłać szybkim przelewem!</a>",
+                "caption": "<a href=\"https://cantinamexicana.github.io/Meksyk/\" target=\"_blank\" class=\"text-white\">Belle Belge</a><br><a href=\"https://cantinamexicana.github.io/Meksyk/\" target=\"_blank\" class=\"text-white\">Zamów online! Zapłać szybkim przelewem!</a>",
                 "active": false
               },
               {
@@ -709,33 +709,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<a href=\"https://cantinamexicana.github.io/CoffeeBar/\" target=\"_blank\" class=\"text-success\">Coffee Bar</a><br><a href=\"https://cantinamexicana.github.io/CoffeeBar/\" target=\"_blank\" class=\"text-success\">Zamów online!  Zapłać szybkim przelewem!</a>",
-                "active": false
-              },
-              {
-                "tags": "Niesamowite",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/bbwww-197x197.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/bbwww-197x197-197x197.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "<a href=\"https://cantinamexicana.github.io/BraciaB/\" target=\"_blank\">Bracia B Food Truck</a><br><a href=\"https://cantinamexicana.github.io/BraciaB/\" target=\"_blank\">Zamów online! Zapłać szybkim przelewem!</a>",
-                "active": false
-              },
-              {
-                "tags": "Niesamowite",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/piwo-197x197.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/piwo-197x197-197x197.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Piwo",
+                "caption": "<a href=\"https://cantinamexicana.github.io/CoffeeBar/\" target=\"_blank\" class=\"text-white\">Coffee Bar</a><br><a href=\"https://cantinamexicana.github.io/CoffeeBar/\" target=\"_blank\" class=\"text-white\">Zamów online!  Zapłać szybkim przelewem!</a>",
                 "active": false
               },
               {
@@ -748,7 +722,33 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<a href=\"https://cantinamexicana.github.io/Churros/\" target=\"_blank\">K FOOD</a><br><a href=\"https://cantinamexicana.github.io/Churros/\" target=\"_blank\">Zamów online! Zapłać szybkim przelewem!</a>",
+                "caption": "<a href=\"https://cantinamexicana.github.io/Churros/\" target=\"_blank\" class=\"text-white\">K FOOD</a><br><a href=\"https://cantinamexicana.github.io/Churros/\" target=\"_blank\" class=\"text-white\">Zamów online! Zapłać szybkim przelewem!</a>",
+                "active": false
+              },
+              {
+                "tags": "Niesamowite",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/bbwww-zapieksy-197x197.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/bbwww-zapieksy-197x197-197x197.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Bracia B ZAPIEKANKI<br>Zamów online! Zapłać szybkim przelewem!<br>",
+                "active": false
+              },
+              {
+                "tags": "Niesamowite",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/bbwww-197x197.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/bbwww-197x197-197x197.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<a href=\"https://cantinamexicana.github.io/BraciaB/\" target=\"_blank\" class=\"text-white\">Bracia B B</a>URGERY<br><a href=\"https://cantinamexicana.github.io/BraciaB/\" target=\"_blank\" class=\"text-white\">Zamów online! Zapłać szybkim przelewem!</a>",
                 "active": false
               },
               {
@@ -858,6 +858,19 @@
           "_params": {
             "gallery": [
               {
+                "tags": "Animowane",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/piwo-197x197.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/piwo-197x197-197x197.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Piwo",
+                "active": true
+              },
+              {
                 "tags": "Niesamowite",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
@@ -867,7 +880,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Lody",
+                "caption": "Lody<br>Zamów online! Zapłać szybkim przelewem!",
                 "active": false
               },
               {
@@ -880,7 +893,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<a href=\"https://cantinamexicana.github.io/Anuszka/\" target=\"_blank\">Langosz</a><br><a href=\"https://cantinamexicana.github.io/Anuszka/\" target=\"_blank\">Zamów online!  Zapłać szybkim przelewem!</a>",
+                "caption": "<a href=\"https://cantinamexicana.github.io/Anuszka/\" target=\"_blank\" class=\"text-success\">Langosz</a><br><a href=\"https://cantinamexicana.github.io/Anuszka/\" target=\"_blank\" class=\"text-success\">Zamów online!  Zapłać szybkim przelewem!</a>",
                 "active": false
               },
               {
@@ -893,21 +906,8 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<a href=\"https://cantinamexicana.github.io/Anuszka/\" target=\"_blank\">Anuszka</a><br><a href=\"https://cantinamexicana.github.io/Anuszka/\" target=\"_blank\">Zamów online! Zapłać szybkim przelewem!</a>",
+                "caption": "<b><a href=\"https://cantinamexicana.github.io/Anuszka/\" target=\"_blank\" class=\"text-success\">Anuszka</a><br><a href=\"https://cantinamexicana.github.io/Anuszka/\" target=\"_blank\" class=\"text-success\">Zamów online! Zapłać szybkim przelewem!</a></b>",
                 "active": false
-              },
-              {
-                "tags": "Animowane",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/zapiekanki-197x197.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/zapiekanki-197x197-197x197.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Zapiekanki",
-                "active": true
               }
             ]
           }
