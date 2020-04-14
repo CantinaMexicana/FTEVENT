@@ -1190,9 +1190,9 @@ section.lazy-placeholder:after {
   }
 }
 .cid-rVJoqaqlz3 {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 0px;
+  background-color: #4f4943;
 }
 .cid-rVJoqaqlz3 .mbr-slider .carousel-control {
   background: #1b1b1b;
@@ -1234,7 +1234,7 @@ section.lazy-placeholder:after {
   background: transparent !important;
 }
 .cid-rVJoqaqlz3 .mbr-gallery-item > div:hover:before {
-  opacity: 0.7 !important;
+  opacity: 0.6 !important;
 }
 .cid-rVJoqaqlz3 .mbr-gallery-title {
   font-size: .9em;
@@ -1255,14 +1255,14 @@ section.lazy-placeholder:after {
   z-index: -1;
   position: absolute;
   background: #554346 !important;
-  opacity: 0.7;
+  opacity: 0.6;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
   background: linear-gradient(to left, #554346, #45505b) !important;
 }
 .cid-rVKb8RVWiA {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   background-color: #ffffff;
 }
 .cid-rVKb8RVWiA .mbr-slider .carousel-control {
@@ -1296,7 +1296,7 @@ section.lazy-placeholder:after {
   opacity: 0;
   -webkit-transition: 0.2s opacity ease-in-out;
   transition: 0.2s opacity ease-in-out;
-  background: linear-gradient(to left, #554346, #45505b) !important;
+  background: linear-gradient(to left, #554346, #4f4943) !important;
 }
 .cid-rVKb8RVWiA .mbr-gallery-item > div {
   position: relative;
@@ -1305,7 +1305,7 @@ section.lazy-placeholder:after {
   background: transparent !important;
 }
 .cid-rVKb8RVWiA .mbr-gallery-item > div:hover:before {
-  opacity: 0.7 !important;
+  opacity: 0.6 !important;
 }
 .cid-rVKb8RVWiA .mbr-gallery-title {
   font-size: .9em;
@@ -1326,10 +1326,10 @@ section.lazy-placeholder:after {
   z-index: -1;
   position: absolute;
   background: #554346 !important;
-  opacity: 0.7;
+  opacity: 0.6;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
-  background: linear-gradient(to left, #554346, #45505b) !important;
+  background: linear-gradient(to left, #554346, #4f4943) !important;
 }
 .cid-rVK8wkpL6v {
   background: #ffffff;
